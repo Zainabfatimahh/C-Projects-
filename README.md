@@ -15,7 +15,6 @@ Each project is focused on a specific concept such as input/output, conditionals
 | prime-checker        | Determines if a number is prime or not          |
 
 > 📌 Each project is in its own `.cpp` file and can be compiled and run independently.
-
 ## ▶️ How to Run
 
 ### 💻 Using g++ (Linux / Windows / macOS)
