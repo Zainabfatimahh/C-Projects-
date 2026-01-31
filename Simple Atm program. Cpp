@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int pin = 1234, enteredPin;
+    int balance = 5000, choice, amount;
+
+    cout << "Enter PIN: ";
+    cin >> enteredPin;
+
+    if(enteredPin == pin) {
+        cout << "1. Check Balance\n2. Withdraw\n";
+        cin >> choice;
+
+        if(choice == 1)
+            cout << "Balance = " << balance;
+        else if(choice == 2) {
+            cout << "Enter amount: ";
+            cin >> amount;
+            balance -= amount;
+            cout << "Remaining Balance = " << balance;
+        }
+    } else {
+        cout << "Wrong PIN";
+    }
+
+    return 0;
+}
